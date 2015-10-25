@@ -26,7 +26,7 @@ function examplePointsCH()
 [p] = setParameters();
 
 % Finger test model
-[finger]=modelFingerTest(p);  
+[finger]=modelFingerTest();  
 
 nr=finger{1}.n;
 R=p.resolution;
