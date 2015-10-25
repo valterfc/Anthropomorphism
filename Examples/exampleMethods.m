@@ -36,7 +36,7 @@ p.HL=18.6; %cm
 p.flag3Dmodels='ON';
 
 % Test finger model
-[finger]=modelFingerTest(p);  
+[finger]=modelFingerTest();  
 
 % Number of links
 nr=finger{1}.n;
